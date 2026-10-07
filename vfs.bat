@@ -1,2 +1,3 @@
 @echo off
-.\run.bat --vfs test.json
+cmd /k .\run.bat --vfs test.json
+
