@@ -1,2 +1,2 @@
 @echo off
-.\run.bat --vfs test.json --script tests\test_one.txt
+cmd /k .\run.bat --vfs test.json --script tests\test_one.txt

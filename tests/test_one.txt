@@ -10,5 +10,3 @@ cd "a b c"
 cd "a b" c
 abcd
 ls "err
-exit lalala
-exit
