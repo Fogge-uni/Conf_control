@@ -1,0 +1,7 @@
+whoami
+uptime
+history
+ls
+cd /
+history
+exit
