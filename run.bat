@@ -2,8 +2,8 @@
 
 if not exist out mkdir out
 
-javac -d out src\*.java
+javac -encoding UTF-8 -d out src\*.java
 
 if errorlevel 1 exit /b 1
 
-java -cp out Main %*
+java -Dfile.encoding=UTF-8 -cp out Main %*
