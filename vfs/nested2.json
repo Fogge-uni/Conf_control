@@ -1,0 +1,63 @@
+
+{
+  "name": "/",
+  "type": "directory",
+  "children": [
+    {
+      "name": "motd",
+      "type": "file",
+      "content": "VkZTIHRlc3QK"
+    },
+    {
+      "name": "var",
+      "type": "directory",
+      "children": [
+        {
+          "name": "log",
+          "type": "directory",
+          "children": [
+            {
+              "name": "app.log",
+              "type": "file",
+              "content": "QXBwbGljYXRpb24gbG9nCg=="
+            },
+            {
+              "name": "errors",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "error.txt",
+                  "type": "file",
+                  "content": "RXJyb3IgbWVzc2FnZQo="
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "usr",
+      "type": "directory",
+      "children": [
+        {
+          "name": "local",
+          "type": "directory",
+          "children": [
+            {
+              "name": "bin",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "tool.txt",
+                  "type": "file",
+                  "content": "VG9vbCBmaWxlCg=="
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "/",
+  "type": "directory",
+  "children": [
+    {
+      "name": "motd",
+      "type": "file",
+      "content": "SGVsbG8hCg=="
+    }
+  ]
+}

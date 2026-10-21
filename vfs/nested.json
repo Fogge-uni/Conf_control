@@ -1,0 +1,39 @@
+{
+  "name": "/",
+  "type": "directory",
+  "children": [
+    {
+      "name": "motd",
+      "type": "file",
+      "content": "VGVzdCBWRlMK"
+    },
+    {
+      "name": "home",
+      "type": "directory",
+      "children": [
+        {
+          "name": "student",
+          "type": "directory",
+          "children": [
+            {
+              "name": "notes.txt",
+              "type": "file",
+              "content": "Tm90ZXMK"
+            },
+            {
+              "name": "projects",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "project.txt",
+                  "type": "file",
+                  "content": "UHJvamVjdAo="
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

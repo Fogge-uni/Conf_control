@@ -1,0 +1,24 @@
+
+ls
+cd var
+ls
+cd log
+ls
+cd errors
+ls
+cd ..
+ls
+cd ../..
+ls
+cd /usr/local/bin
+ls
+cd ..
+ls
+cd ../../..
+ls
+cd /var/log/errors/error.txt
+cd /var/log/errors
+ls error.txt
+cd /not-found
+cd /
+ls

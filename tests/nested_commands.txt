@@ -1,0 +1,26 @@
+
+ls
+cd home
+ls
+cd student
+ls
+cd projects
+ls
+cd /
+ls
+cd home/student
+ls
+cd projects/project.txt
+cd projects
+ls project.txt
+cd ..
+ls
+cd ..
+cd ..
+ls
+cd /home/student/projects
+ls
+cd ..
+cd ..
+cd ..
+ls
