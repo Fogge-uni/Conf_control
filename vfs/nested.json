@@ -1,0 +1,39 @@
+{
+  "name": "/",
+  "type": "directory",
+  "children": [
+    {
+      "name": "motd",
+      "type": "file",
+      "content": "VkZTINGB0L7QtNC10YDQttC40YIg0LLQu9C+0LbQtdC90L3Ri9C1INC60LDRgtCw0LvQvtCz0LguCg=="
+    },
+    {
+      "name": "documents",
+      "type": "directory",
+      "children": [
+        {
+          "name": "university",
+          "type": "directory",
+          "children": [
+            {
+              "name": "labs",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "task.txt",
+                  "type": "file",
+                  "content": "0K3RgtC+INGE0LDQudC7INC90LAg0YLRgNC10YLRjNC10Lwg0YPRgNC+0LLQvdC1INCy0LvQvtC20LXQvdC90L7RgdGC0LguCg=="
+                },
+                {
+                  "name": "data.bin",
+                  "type": "file",
+                  "content": "ChQeKPo="
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

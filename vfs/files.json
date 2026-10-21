@@ -1,0 +1,37 @@
+{
+  "name": "/",
+  "type": "directory",
+  "children": [
+    {
+      "name": "motd",
+      "type": "file",
+      "content": "VkZTINGBINC90LXRgdC60L7Qu9GM0LrQuNC80Lgg0YTQsNC50LvQsNC80LguCg=="
+    },
+    {
+      "name": "readme.txt",
+      "type": "file",
+      "content": "0K3RgtC+INC+0LHRi9GH0L3Ri9C5INGC0LXQutGB0YLQvtCy0YvQuSDRhNCw0LnQuyDQstC90YPRgtGA0LggVkZTLgo="
+    },
+    {
+      "name": "data.bin",
+      "type": "file",
+      "content": "AAECA3+A/w=="
+    },
+    {
+      "name": "documents",
+      "type": "directory",
+      "children": [
+        {
+          "name": "lesson.txt",
+          "type": "file",
+          "content": "0JzQsNGC0LXRgNC40LDQuyDQt9Cw0L3Rj9GC0LjRjy4K"
+        },
+        {
+          "name": "notes.txt",
+          "type": "file",
+          "content": "0JfQsNC80LXRgtC60LguCg=="
+        }
+      ]
+    }
+  ]
+}

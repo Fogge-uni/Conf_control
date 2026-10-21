@@ -1,0 +1,11 @@
+{
+  "name": "/",
+  "type": "directory",
+  "children": [
+    {
+      "name": "motd",
+      "type": "file",
+      "content": "0JTQvtCx0YDQviDQv9C+0LbQsNC70L7QstCw0YLRjCDQsiDQvNC40L3QuNC80LDQu9GM0L3Rg9GOIFZGUyEK"
+    }
+  ]
+}
