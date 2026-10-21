@@ -1,0 +1,12 @@
+ls
+ls test
+ls a b c
+ls "a b c"
+ls "a b" c
+cd
+cd test
+cd a b c
+cd "a b c"
+cd "a b" c
+abcd
+ls "err
