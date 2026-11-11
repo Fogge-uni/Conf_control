@@ -1,9 +1,22 @@
+
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
 public class JsonParser {
+
+    private static final Map<Character, Character> ESCAPES = Map.of(
+            '"', '"',
+            '\\', '\\',
+            '/', '/',
+            'b', '\b',
+            'f', '\f',
+            'n', '\n',
+            'r', '\r',
+            't', '\t'
+    );
+
     private final String text;
     private int position;
 
@@ -165,38 +178,19 @@ public class JsonParser {
 
         char escaped = text.charAt(position++);
 
-        switch (escaped) {
-            case '"':
-                result.append('"');
-                break;
-            case '\\':
-                result.append('\\');
-                break;
-            case '/':
-                result.append('/');
-                break;
-            case 'b':
-                result.append('\b');
-                break;
-            case 'f':
-                result.append('\f');
-                break;
-            case 'n':
-                result.append('\n');
-                break;
-            case 'r':
-                result.append('\r');
-                break;
-            case 't':
-                result.append('\t');
-                break;
-            case 'u':
-                readUnicode(result);
-                break;
-            default:
-                throw new IllegalArgumentException(
-                        "неверная escape-последовательность JSON");
+        if (escaped == 'u') {
+            readUnicode(result);
+            return;
         }
+
+        Character replacement = ESCAPES.get(escaped);
+
+        if (replacement == null) {
+            throw new IllegalArgumentException(
+                    "неверная escape-последовательность JSON");
+        }
+
+        result.append(replacement);
     }
 
     private void readUnicode(StringBuilder result) {
